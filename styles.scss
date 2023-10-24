@@ -1,0 +1,47 @@
+$bgcBlack: rgb(94, 92, 92);
+$bgcWhite: white;
+
+div {
+    text-align: center;
+}
+.login-btn {
+    width: 50%;
+    height: 40px;
+    color: $bgcWhite;
+    background-color: $bgcBlack;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    appearance: none;
+    margin-top: 100px;
+    cursor: pointer;
+    transition: all .4s;
+    box-shadow: 5px 5px 10px black;
+    &:hover {
+      opacity: 0.7;
+      box-shadow: 2px 2px 7px black;
+  }
+
+  }
+
+
+  .input-mail {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    outline: 0;
+    transition: 0.3s;
+    -webkit-appearance: none;
+    text-align: center;
+
+  }
+
+  .click {
+    pointer-events: none;
+  }
